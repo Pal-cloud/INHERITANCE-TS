@@ -1,0 +1,23 @@
+{
+  "name": "inheritance-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/08-inheritance.js",
+    "dev:08": "npx ts-node src/08-inheritance.ts",
+    "dev:09": "npx ts-node src/09-protected.ts",
+    "dev:example": "npx ts-node src/10-practical-example.ts",
+    "dev": "npx ts-node",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

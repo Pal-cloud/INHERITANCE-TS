@@ -20,7 +20,7 @@ export class Dog extends Animal { //aquí estamos construyendo la clase hija con
     }
 
     woof(times: number) {
-        for (let index = 0; index < times; index++) {
+        for (let index = 0; index < times; index++) { // empieza en cero, se ejecuta mientras, cada iteración +1
             console.log('Woof!');
         }
     }
